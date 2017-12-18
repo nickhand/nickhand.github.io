@@ -2,10 +2,11 @@ import shutil
 import sys
 import os
 
+IGNORED = ['__pycache__', '.git', 'blog']
+
 def copytree(src, dst, symlinks=False, ignore=None):
     for item in os.listdir(src):
-        print(item)
-        if item == 'blog' or item == '.git':
+        if item in IGNORED:
             continue
 
         s = os.path.join(src, item)
