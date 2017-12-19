@@ -8,8 +8,7 @@ SITENAME = "Offhand Remarks"
 SITETITLE = AUTHOR
 SITESUBTITLE = 'Astrophysics PhD, Aspiring Data Scientist'
 SITEDESCRIPTION = '%s\'s Thoughts and Writings' % AUTHOR
-SITELOGO = '/images/profile.jpg'
-FAVICON = '/images/favicon.ico'
+SITELOGO = 'images/profile.jpg'
 BROWSER_COLOR = '#333333'
 
 
